@@ -5,6 +5,8 @@
 * ChatGPT
 * Cursor (AI Coding Assistant)
 
+---
+
 ## Requirements Analysis
 
 ### Tool
@@ -19,7 +21,7 @@ ChatGPT
 
 * Broke down the assignment requirements.
 * Explained synchronization workflow and expected outputs.
-* Identified important concepts such as conflicts, tombstones, duplicates, and reporting.
+* Identified important concepts such as conflicts, tombstones, duplicates, conflict resolution, and reporting.
 
 ---
 
@@ -34,7 +36,8 @@ ChatGPT
 ### Outcome
 
 * Explained the purpose of each dataset.
-* Identified conflict scenarios, duplicate events, tombstones, and edge cases.
+* Identified conflict scenarios, duplicate events, tombstones, clock-skew cases, and edge cases.
+* Helped understand expected behavior before implementation.
 
 ---
 
@@ -50,15 +53,17 @@ Cursor
 
 ### Outcome
 
-* Phased architecture plan:
+* Proposed phased architecture:
 
-   * Parse
-   * Deduplicate
-   * Group
-   * Resolve
-   * Emit
-* Proposed project layout.
-* Identified implementation risks and validation points.
+  * Parse
+  * Deduplicate
+  * Group
+  * Resolve
+  * Emit
+
+* Suggested project structure.
+
+* Identified implementation risks and validation areas.
 
 ---
 
@@ -74,11 +79,12 @@ Cursor
 
 ### Outcome
 
-* Generated Gradle Kotlin JVM project.
-* Generated sync engine implementation.
+* Generated Kotlin JVM project structure.
+* Generated synchronization engine implementation.
 * Generated CLI runner.
-* Generated tests.
-* Generated output writers.
+* Generated JSON parsing and output handling.
+* Generated unit tests.
+* Generated output generation logic.
 
 ---
 
@@ -94,10 +100,10 @@ ChatGPT
 
 ### Outcome
 
-* Reviewed expected conflict counts.
-* Reviewed deleted entity handling.
-* Reviewed duplicate handling.
-* Reviewed report calculations.
+* Reviewed expected synchronization results.
+* Verified conflict counts.
+* Verified entity reconstruction.
+* Verified report calculations.
 
 ---
 
@@ -113,9 +119,10 @@ ChatGPT
 
 * Reviewed implementation behavior.
 * Discussed timestamp ties.
-* Discussed clock skew handling.
-* Discussed tombstone handling.
-* Discussed deterministic output behavior.
+* Discussed duplicate event handling.
+* Discussed tombstone processing.
+* Reviewed deterministic output behavior.
+* Identified additional validation scenarios.
 
 ---
 
@@ -129,15 +136,86 @@ ChatGPT
 
 ### Outcome
 
-* Reviewed Case-01 through Case-04 outputs.
-* Verified conflict counts.
+* Reviewed outputs from Case-01 through Case-04.
+* Verified conflict-resolution behavior.
 * Verified report consistency.
 * Reviewed assumptions and edge cases.
 
 ---
 
+### Tool
+
+ChatGPT
+
+### Prompt
+
+> Compare the implementation against the documented synchronization algorithm and identify any deviations from the specification.
+
+### Outcome
+
+* Reviewed synchronization flow step-by-step.
+* Analyzed interpretation of `clock_skew_tolerance_seconds`.
+* Compared implementation behavior against documented rules.
+* Updated assumptions and implementation decisions to align with the intended synchronization algorithm.
+
+---
+
+## Additional Validation
+
+### Tool
+
+ChatGPT
+
+### Prompt
+
+> Generate additional validation datasets and expected outputs to verify synchronization behavior.
+
+### Outcome
+
+Additional custom validation scenarios were created and executed, including:
+
+* Exact timestamp ties
+* Local timestamp later
+* Remote timestamp later
+* Duplicate event IDs
+* Multiple updates to the same field
+* Tombstone wins
+* Tombstone resurrection
+* Tombstone TTL expiry
+* Mixed field conflicts
+* Deleted entities with retained fields
+* Event ID tie-breaking
+* Multi-entity conflict aggregation
+* Empty datasets
+* Local-only entities
+* Remote-only entities
+
+Generated outputs were compared against manually derived expected outputs to verify implementation correctness.
+
+---
+
+## Documentation
+
+### Tool
+
+ChatGPT
+
+### Prompt
+
+> Help document assumptions, validation results, and AI usage for submission.
+
+### Outcome
+
+* Assisted in documenting assumptions.
+* Assisted in documenting validation activities.
+* Assisted in preparing submission documentation.
+
+---
+
 ## Final Review
 
-The final outputs, assumptions, and documentation were manually reviewed before submission.
+The final implementation, generated outputs, assumptions, validation scenarios, and submission documentation were manually reviewed before submission.
 
-AI tools were used to assist with understanding requirements, implementation, validation, and documentation. Final implementation decisions and output verification were performed manually.
+AI tools were used to assist with understanding requirements, implementation planning, code generation, validation, testing, and documentation.
+
+Final implementation decisions, assumption handling, validation of outputs, and submission review were performed manually by the candidate.

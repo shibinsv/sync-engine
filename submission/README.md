@@ -120,11 +120,17 @@ The following behaviors were specifically reviewed:
 * Conflict resolution
 * Duplicate event handling
 * Tombstone processing
+* Tombstone expiry and resurrection scenarios
 * Entity reconstruction
 * Report generation
+* Deterministic output generation
+* Timestamp tie handling
+* Multi-update field scenarios
+* Local-only and remote-only entities
 * Edge-case scenarios
 
 Additional implementation assumptions are documented in `assumptions.md`.
+
 
 ## Dependencies
 
@@ -171,8 +177,8 @@ See `RUN_RESULTS.md` for execution timings.
 
 ## Development Notes
 
-The assignment was completed through an iterative design, implementation, and validation process.
+The implementation was developed and validated iteratively using the provided specification and datasets.
 
-The specification and datasets were analyzed to understand synchronization requirements, conflict resolution rules, duplicate handling, tombstone processing, and reporting expectations.
+Particular attention was given to conflict resolution, duplicate event handling, tombstone processing, deterministic output generation, and edge-case behavior.
 
-AI-assisted tools were used to help understand the requirements, explore implementation approaches, and validate generated outputs. All implementation decisions, assumptions, and final outputs were manually reviewed before submission.
+Any specification ambiguities encountered during development are documented in `assumptions.md`.
