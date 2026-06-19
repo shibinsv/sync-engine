@@ -1,0 +1,382 @@
+[
+  {
+    "event_id": "evt-0201",
+    "entity_id": "contact-001",
+    "field": "name",
+    "value": "Local Name 1",
+    "timestamp": "2024-01-15T10:01:40Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0203",
+    "entity_id": "contact-001",
+    "field": "phone",
+    "value": "+1-555-0001",
+    "timestamp": "2024-01-15T10:01:30Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0204",
+    "entity_id": "contact-002",
+    "field": "name",
+    "value": "Local Name 2",
+    "timestamp": "2024-01-15T10:01:40Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0206",
+    "entity_id": "contact-002",
+    "field": "phone",
+    "value": "+1-555-0002",
+    "timestamp": "2024-01-15T10:01:30Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0207",
+    "entity_id": "contact-003",
+    "field": "name",
+    "value": "Local Name 3",
+    "timestamp": "2024-01-15T10:01:40Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0209",
+    "entity_id": "contact-003",
+    "field": "phone",
+    "value": "+1-555-0003",
+    "timestamp": "2024-01-15T10:01:30Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0210",
+    "entity_id": "contact-004",
+    "field": "name",
+    "value": "Local Name 4",
+    "timestamp": "2024-01-15T10:01:40Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0212",
+    "entity_id": "contact-004",
+    "field": "phone",
+    "value": "+1-555-0004",
+    "timestamp": "2024-01-15T10:01:30Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0213",
+    "entity_id": "contact-005",
+    "field": "name",
+    "value": "Local Name 5",
+    "timestamp": "2024-01-15T10:01:40Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0215",
+    "entity_id": "contact-005",
+    "field": "phone",
+    "value": "+1-555-0005",
+    "timestamp": "2024-01-15T10:01:30Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0216",
+    "entity_id": "contact-006",
+    "field": "name",
+    "value": "Only Local 6",
+    "timestamp": "2024-01-15T10:01:50Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0217",
+    "entity_id": "contact-006",
+    "field": "email",
+    "value": "local6@example.com",
+    "timestamp": "2024-01-15T10:01:55Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0218",
+    "entity_id": "contact-007",
+    "field": "name",
+    "value": "Only Local 7",
+    "timestamp": "2024-01-15T10:02:00Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0219",
+    "entity_id": "contact-007",
+    "field": "email",
+    "value": "local7@example.com",
+    "timestamp": "2024-01-15T10:02:05Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0220",
+    "entity_id": "contact-008",
+    "field": "name",
+    "value": "Only Local 8",
+    "timestamp": "2024-01-15T10:02:10Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0221",
+    "entity_id": "contact-008",
+    "field": "email",
+    "value": "local8@example.com",
+    "timestamp": "2024-01-15T10:02:15Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0222",
+    "entity_id": "contact-009",
+    "field": "name",
+    "value": "Only Local 9",
+    "timestamp": "2024-01-15T10:02:20Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0223",
+    "entity_id": "contact-009",
+    "field": "email",
+    "value": "local9@example.com",
+    "timestamp": "2024-01-15T10:02:25Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0224",
+    "entity_id": "contact-010",
+    "field": "name",
+    "value": "Only Local 10",
+    "timestamp": "2024-01-15T10:02:30Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0225",
+    "entity_id": "contact-010",
+    "field": "email",
+    "value": "local10@example.com",
+    "timestamp": "2024-01-15T10:02:35Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0226",
+    "entity_id": "contact-011",
+    "field": "deleted",
+    "value": "true",
+    "timestamp": "2024-01-15T10:03:20Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0229",
+    "entity_id": "contact-012",
+    "field": "name",
+    "value": "Empty Address Person",
+    "timestamp": "2024-01-15T10:01:40Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0230",
+    "entity_id": "contact-012",
+    "field": "address",
+    "value": "",
+    "timestamp": "2024-01-15T10:01:45Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0243",
+    "entity_id": "contact-016",
+    "field": "phone",
+    "value": "+1-555-OLD-16",
+    "timestamp": "2024-01-15T10:02:40Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0244",
+    "entity_id": "contact-016",
+    "field": "phone",
+    "value": "+1-555-NEW-16",
+    "timestamp": "2024-01-15T10:03:10Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0245",
+    "entity_id": "contact-016",
+    "field": "name",
+    "value": "Multi-Update 16",
+    "timestamp": "2024-01-15T10:02:45Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0246",
+    "entity_id": "contact-017",
+    "field": "phone",
+    "value": "+1-555-OLD-17",
+    "timestamp": "2024-01-15T10:02:50Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0247",
+    "entity_id": "contact-017",
+    "field": "phone",
+    "value": "+1-555-NEW-17",
+    "timestamp": "2024-01-15T10:03:20Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0248",
+    "entity_id": "contact-017",
+    "field": "name",
+    "value": "Multi-Update 17",
+    "timestamp": "2024-01-15T10:02:55Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0249",
+    "entity_id": "contact-018",
+    "field": "phone",
+    "value": "+1-555-OLD-18",
+    "timestamp": "2024-01-15T10:03:00Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0250",
+    "entity_id": "contact-018",
+    "field": "phone",
+    "value": "+1-555-NEW-18",
+    "timestamp": "2024-01-15T10:03:30Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0251",
+    "entity_id": "contact-018",
+    "field": "name",
+    "value": "Multi-Update 18",
+    "timestamp": "2024-01-15T10:03:05Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0252",
+    "entity_id": "contact-019",
+    "field": "phone",
+    "value": "+1-555-OLD-19",
+    "timestamp": "2024-01-15T10:03:10Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0253",
+    "entity_id": "contact-019",
+    "field": "phone",
+    "value": "+1-555-NEW-19",
+    "timestamp": "2024-01-15T10:03:40Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0254",
+    "entity_id": "contact-019",
+    "field": "name",
+    "value": "Multi-Update 19",
+    "timestamp": "2024-01-15T10:03:15Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0255",
+    "entity_id": "contact-020",
+    "field": "phone",
+    "value": "+1-555-OLD-20",
+    "timestamp": "2024-01-15T10:03:20Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0256",
+    "entity_id": "contact-020",
+    "field": "phone",
+    "value": "+1-555-NEW-20",
+    "timestamp": "2024-01-15T10:03:50Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0257",
+    "entity_id": "contact-020",
+    "field": "name",
+    "value": "Multi-Update 20",
+    "timestamp": "2024-01-15T10:03:25Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  }
+]

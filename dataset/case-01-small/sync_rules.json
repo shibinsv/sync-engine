@@ -1,0 +1,6 @@
+{
+  "conflict_strategy": "last_write_wins",
+  "tie_breaker": "remote_wins",
+  "tombstone_ttl_seconds": 86400,
+  "clock_skew_tolerance_seconds": 30
+}

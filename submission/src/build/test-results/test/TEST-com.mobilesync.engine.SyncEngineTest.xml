@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mobilesync.engine.SyncEngineTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-06-19T13:35:19" hostname="Shibins-MacBook-Air.local" time="0.013">
+  <properties/>
+  <testcase name="deduplicatesDuplicateEventIdsWithRemoteWinning()" classname="com.mobilesync.engine.SyncEngineTest" time="0.004"/>
+  <testcase name="picksLatestEventWithinSingleSide()" classname="com.mobilesync.engine.SyncEngineTest" time="0.001"/>
+  <testcase name="handlesTombstoneAndResurrection()" classname="com.mobilesync.engine.SyncEngineTest" time="0.001"/>
+  <testcase name="appliesClockSkewToleranceAsTieBreaker()" classname="com.mobilesync.engine.SyncEngineTest" time="0.0"/>
+  <testcase name="case01SmallProducesTenEntitiesAndNoConflicts()" classname="com.mobilesync.engine.SyncEngineTest" time="0.005"/>
+  <testcase name="resolvesExactTimestampTieWithTieBreaker()" classname="com.mobilesync.engine.SyncEngineTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

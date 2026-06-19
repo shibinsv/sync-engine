@@ -1,0 +1,102 @@
+[
+  {
+    "event_id": "evt-0001",
+    "entity_id": "contact-001",
+    "field": "name",
+    "value": "Alice Smith",
+    "timestamp": "2024-01-15T10:00:00Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0002",
+    "entity_id": "contact-001",
+    "field": "phone",
+    "value": "+1-555-0101",
+    "timestamp": "2024-01-15T10:00:05Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0003",
+    "entity_id": "contact-002",
+    "field": "name",
+    "value": "Bob Jones",
+    "timestamp": "2024-01-15T10:01:00Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0004",
+    "entity_id": "contact-002",
+    "field": "phone",
+    "value": "+1-555-0102",
+    "timestamp": "2024-01-15T10:01:05Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0005",
+    "entity_id": "contact-003",
+    "field": "name",
+    "value": "Carol White",
+    "timestamp": "2024-01-15T10:02:00Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0006",
+    "entity_id": "contact-003",
+    "field": "phone",
+    "value": "+1-555-0103",
+    "timestamp": "2024-01-15T10:02:05Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0007",
+    "entity_id": "contact-004",
+    "field": "name",
+    "value": "David Brown",
+    "timestamp": "2024-01-15T10:03:00Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0008",
+    "entity_id": "contact-004",
+    "field": "phone",
+    "value": "+1-555-0104",
+    "timestamp": "2024-01-15T10:03:05Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0009",
+    "entity_id": "contact-005",
+    "field": "name",
+    "value": "Eve Davis",
+    "timestamp": "2024-01-15T10:04:00Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  },
+  {
+    "event_id": "evt-0010",
+    "entity_id": "contact-005",
+    "field": "phone",
+    "value": "+1-555-0105",
+    "timestamp": "2024-01-15T10:04:05Z",
+    "source": "local",
+    "device_id": "device-001",
+    "seq": 0
+  }
+]

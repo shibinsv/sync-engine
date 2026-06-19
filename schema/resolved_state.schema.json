@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Resolved State",
+  "description": "Final state of every entity after offline sync.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["entity_id", "fields", "deleted", "last_modified", "last_source"],
+    "additionalProperties": false,
+    "properties": {
+      "entity_id": {
+        "type": "string",
+        "description": "Unique contact identifier, e.g. contact-001"
+      },
+      "fields": {
+        "type": "object",
+        "description": "Winning field values (excludes the 'deleted' pseudo-field).",
+        "additionalProperties": { "type": "string" }
+      },
+      "deleted": {
+        "type": "boolean",
+        "description": "true if the entity's 'deleted' event won with value 'true'."
+      },
+      "last_modified": {
+        "type": ["string", "null"],
+        "description": "ISO 8601 UTC timestamp of the latest winning event (any field)."
+      },
+      "last_source": {
+        "type": ["string", "null"],
+        "enum": ["local", "remote", null],
+        "description": "Source of the latest winning event."
+      }
+    }
+  }
+}
